@@ -27,4 +27,8 @@ class EntriesController < ApplicationController
     redirect_to entry_url(params[:id])
   end
 
+  def destroy
+    redirect_to :index
+
+  end
 end
