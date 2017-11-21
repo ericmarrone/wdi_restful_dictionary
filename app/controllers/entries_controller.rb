@@ -9,4 +9,8 @@ class EntriesController < ApplicationController
   def end
 
   end
+  def create
+    redirect_to entries_url
+
+  end
 end
